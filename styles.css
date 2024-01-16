@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&family=Open+Sans:ital,wght@0,800;1,800&display=swap');
 
 
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+}
 .header-view{
-    max-width: 1140px;
+    max-width: 1170px;
     margin: 0 auto;
     background-color: bisque;
 }
@@ -43,6 +50,25 @@
     color:  #FF5400;
 
 }
+/* Banner section start */
+.background-img{
+background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+width: 1170px;
+height: 500px;
+margin: 145px auto;
+border-radius: 1rem;
+}
+.bannser-title{
+    color: #FFF;
+    /* margin-top: 250px; */
+    padding: 10px;
+    font-size: 4rem;
+    font-weight: 800;
+    align-items: center;
+  
+}
+
+ 
 
 
 
