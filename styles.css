@@ -67,6 +67,55 @@ border-radius: 1rem;
     align-items: center;
   
 }
+.tour-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.img-container{
+    background-image: url(Images/Rectangle\ 4.png);
+}
+/* tour style start */
+.tour-description{
+    max-width: 1170px;
+    margin: 0 auto;
+     min-height: 500px; 
+    /* background-color: antiquewhite; */
+    border: 5px solid gold;
+    display: flex;
+ 
+
+}
+
+.tour-text{
+    /* border: 2px solid greenyellow; */
+    width: 50%;
+}
+
+.read-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    width: 35px;
+}
+
+.tour-img{
+    border: 2px solid #FF5400;
+    border: 1rem;
+    border-radius: 16px;
+    /* width: 50%; */
+    height: 550px;
+}
+.tour-img img{
+    width: 100%;
+}
+
+
+
+/* tour style end */
 
  
 
