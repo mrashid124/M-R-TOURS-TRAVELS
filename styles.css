@@ -12,10 +12,11 @@ body{
 .header-view{
     max-width: 1170px;
     margin: 0 auto;
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 .topbar-container{
     /* border: 2px solid blue; */
+
     min-height: 15px;
  
     display: flex;
@@ -56,7 +57,10 @@ background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
 width: 1170px;
 height: 500px;
 margin: 145px auto;
+margin-top: 100px;
 border-radius: 1rem;
+/* text-align: center; */
+
 }
 .bannser-title{
     color: #FFF;
@@ -64,7 +68,8 @@ border-radius: 1rem;
     padding: 10px;
     font-size: 4rem;
     font-weight: 800;
-    align-items: center;
+    justify-content: center;
+    
   
 }
 .tour-title{
@@ -85,7 +90,7 @@ border-radius: 1rem;
     margin: 0 auto;
      min-height: 500px; 
     /* background-color: antiquewhite; */
-    border: 5px solid gold;
+    /* border: 5px solid gold; */
     display: flex;
  
 
@@ -93,7 +98,7 @@ border-radius: 1rem;
 
 .tour-text{
     /* border: 2px solid greenyellow; */
-    width: 50%;
+    width: 60%;
 }
 
 .read-btn{
@@ -103,10 +108,10 @@ border-radius: 1rem;
 }
 
 .tour-img{
-    border: 2px solid #FF5400;
+    /* border: 2px solid #FF5400; */
     border: 1rem;
     border-radius: 16px;
-    /* width: 50%; */
+    /* width: 40%; */
     height: 550px;
 }
 .tour-img img{
@@ -133,5 +138,11 @@ border-radius: 1rem;
     .items-links{
         flex-direction: column;
     }
-
+    .topbar-container{
+        flex-direction: column;
+    }
+    .travel-icon{
+        flex-direction: column;
+        width: 100%;
+    }
 }
