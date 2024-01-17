@@ -161,11 +161,14 @@ border-radius: 1rem;
     max-width: 1170px;
     margin: 30px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
+    grid-column-start: 2;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: repeat(3, 1fr); */
+    gap: 24px;
 }
 .img-container img{
-    gap: 24px;
+ padding: 15px;
+ border-radius: 16px;
 }
 
 /* destination section end here */
@@ -190,4 +193,10 @@ border-radius: 1rem;
         flex-direction: column;
         width: 100%;
     }
+    .img-container{
+        max-width: 100%;
+
+        grid-template-columns: repeat(1, 1fr);
+    
+        gap: 10px;
 }
