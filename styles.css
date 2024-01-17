@@ -144,13 +144,36 @@ border-radius: 1rem;
 
 /* tour style end */
 
- 
+/* destination section start here */
+.destination-details{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.destination-title{
+    text-align: center;
+
+    justify-content: center;
+   
+    argin-top: 40px;
+}
+
+.img-container{
+    max-width: 1170px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.img-container img{
+    gap: 24px;
+}
+
+/* destination section end here */
 
 
 
 
-
-
+/* Responsive */
 @media screen and (max-width:600px)
 {
     .topbar-container{
